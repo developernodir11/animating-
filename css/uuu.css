@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    animation: myAnimation 5s linear infinite;
+  }
+  
+  @keyframes myAnimation {
+    0% {
+      background-image:url(https://i.pinimg.com/736x/e9/5a/a9/e95aa938aabfc0c987da3f861fb8ed4d.jpg);
+      background-size: cover;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-image: url(https://koenigsegg-cdn-g7eehhd6f0ewcaff.z02.azurefd.net/drupal/styles/1200x1000/azure/2024-03/94c29aca8e7e6b5d_org%20%281%29.jpeg?h=75fe517f&itok=aZqshsMI);
+      background-size: cover;
+      background-position: center;    
+      background-repeat: no-repeat;
+      left: 100px;
+      top: 0px;
+    }
+    50% {
+      background-image: url(https://www.autoshippers.co.uk/blog/wp-content/uploads/bugatti-centodieci.jpg);
+      background-size: cover;
+      background-position: center;    
+      background-repeat: no-repeat;
+      left: 100px;
+      top: 100px;
+    }
+    75% {
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScOFHqTcy4k9bm1p7MgKJNRlmuaCpZDgSzTw&s);
+      background-size: cover;
+      background-position: center;   
+      background-repeat: no-repeat;
+      left: 0px;
+      top: 100px;
+    }
+    100% {
+      background-image: url(https://stimg.cardekho.com/images/carexteriorimages/630x420/BMW/M5-2025/11821/1719462197562/front-left-side-47.jpg?impolicy=resize&imwidth=480);
+      background-size: cover;
+      background-position: center;    
+      background-repeat: no-repeat;
+      left: 0px;
+      top: 0px;
+    }
+  }
+  
