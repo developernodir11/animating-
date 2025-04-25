@@ -8,11 +8,17 @@ body {
     overflow: hidden;
     
   }
-  
-  div {
+  .iii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 200px;
+  }
+  .hi {
     margin: 0 auto;
-    padding: 100px;
-    padding-left: 100px;
+    padding: 50px;
+    padding-left: 50px;
     width: 100px;
     height: 100px;
     background-color: black;
