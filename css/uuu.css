@@ -6,9 +6,13 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
+    
   }
   
   div {
+    margin: 0 auto;
+    padding: 100px;
+    padding-left: 100px;
     width: 100px;
     height: 100px;
     background-color: black;
